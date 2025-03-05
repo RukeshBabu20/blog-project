@@ -95,6 +95,16 @@ const Home: React.FC = () => {
         gap={2}
         mt={2}
       >
+        <Box mt={2} display="flex" justifyContent="center">
+          <TextField
+            label="Search Blogs"
+            variant="outlined"
+            fullWidth
+            value={searchQuery}
+            onChange={handleSearchChange}
+            sx={{ maxWidth: "500px" }}
+          />
+        </Box>
         <Box flex={2}>
           {blogs.length > 0 ? (
             <>
