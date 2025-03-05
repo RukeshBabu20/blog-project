@@ -212,7 +212,7 @@ const Home: React.FC = () => {
               sx={{
                 height: "400px",
                 padding: "10px",
-                backgroundImage: "url('public/view.jpg')",
+                backgroundImage: "url('/view.jpg')",
                 backgroundSize: "cover",
                 backgroundPosition: "center",
                 backgroundRepeat: "no-repeat",
